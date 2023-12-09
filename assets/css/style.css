@@ -103,7 +103,7 @@ html {
   position: relative;
   margin-top: 46px;
   padding-top: 50%;
-  background: url("/assets/img/slide1.jpg") top center / cover no-repeat;
+  background: url("../img/slide1.jpg") top center / cover no-repeat;
 }
 
 .text-content {
@@ -400,10 +400,6 @@ html {
   cursor: pointer;
 }
 
-/* .modal-wrap[aria-hidden="true"] {
-  overflow: hidden;  
-} */
-
 .buy-ticket:hover {
   animation-iteration-count: 1;
 }
@@ -629,7 +625,7 @@ html {
     text-align: center;
     margin: 0 0 16px;
   }
-  
+
   .member-img img {
     width: 240px;
   }
@@ -644,5 +640,9 @@ html {
 
   .place-tour {
     margin: 15px 0;
+  }
+
+  .modal-container {
+    width: 100%;
   }
 }
